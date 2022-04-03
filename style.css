@@ -62,10 +62,12 @@ main #logo p{
 
 main #icon{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 main #icon div{
-  margin: 50px 30px;
+  margin: 50px 0px;
+  width: 20%;
   text-align: center;
 }
 main #icon div a img{
@@ -100,4 +102,15 @@ main article .content{
 footer{
   width: 80%;
   margin: 30px auto;
+}
+
+@media screen and (max-width: 1080px) {
+  main #icon div{
+    width: 40%;
+  }
+}
+@media screen and (max-width: 480px) {
+  main #icon div{
+    width: 80%;
+  }
 }
