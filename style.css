@@ -64,11 +64,9 @@ main #icon{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1100px;
-  margin: 0 auto;
+  margin: 50px 0;
 }
 main #icon div{
-  margin: 50px 0px;
   width: 20%;
   text-align: center;
 }
@@ -110,10 +108,16 @@ footer{
 @media screen and (max-width: 1080px) {
   main #icon div{
     width: 40%;
+    margin: 30px 0;
   }
 }
 @media screen and (max-width: 480px) {
   main #icon div{
-    width: 80%;
+    width: 40%;
+    margin: 10px 0;
+  }
+  main #icon div a img{
+    width: 100px;
+    height: 100px;
   }
 }
