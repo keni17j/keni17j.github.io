@@ -73,6 +73,7 @@ main #icon div{
   text-align: center;
 }
 main #icon div a img{
+  border-radius: 10px;
   opacity: 0.7;
 }
 main #icon div:hover a img{
